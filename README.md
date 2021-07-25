@@ -10,7 +10,13 @@ I found and testing two methods to detect the global key or pitch of an audio fi
     "Genre-Agnostic Key Classification with Convolutional Neural Networks",
     In Proceedings of the 19th International Society for Music Information 
     Retrieval Conference (ISMIR), Paris, France, 2018.](https://arxiv.org/pdf/1808.05340.pdf).
-* This implementation uses a python package called [madmom](https://pypi.org/project/madmom/) and has no other dependencies. madmom requires cython, numpy
+* This implementation uses a python package called [madmom](https://pypi.org/project/madmom/). madmom requires numpy, 
+scipy.
+cython. 
+mido (for MIDI handling), 
+pytest (to run the tests), 
+pyaudio (to process live audio input), 
+pyfftw (for better FFT performance)
 ![rsz_1rsz_untitled_-_made_with_designcap](https://user-images.githubusercontent.com/60852260/124886917-51a85c80-dff2-11eb-8e16-fe1f66af17d6.jpg)
 
 
